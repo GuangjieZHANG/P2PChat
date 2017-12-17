@@ -20,13 +20,10 @@ public class TCPPanel {
 
 
         //编辑输入内容
-        jTextField = new JTextField(350);
-
+        jTextField = new JTextField();
         send = new JButton("Envoyer");
 
-        northPanel = new JPanel();
         scrollPane = new JScrollPane(jTextArea);
-        northPanel.add(scrollPane);
 
         southPanel = new JPanel(new BorderLayout());
         southPanel.add(jTextField,"Center");
@@ -34,7 +31,7 @@ public class TCPPanel {
 
         jFrame = new JFrame("Chatting");
         jFrame.setLayout(new BorderLayout());
-        jFrame.add(northPanel,"Center");
+        jFrame.add(scrollPane);
         jFrame.add(southPanel,"South");
         jFrame.setSize(400,400);
         int screen_width = Toolkit.getDefaultToolkit().getScreenSize().width;
