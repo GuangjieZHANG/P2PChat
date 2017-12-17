@@ -20,7 +20,7 @@ public class TCPPanel {
 
 
         //编辑输入内容
-        jTextField = new JTextField();
+        jTextField = new JTextField(350);
 
         send = new JButton("Envoyer");
 
@@ -34,7 +34,7 @@ public class TCPPanel {
 
         jFrame = new JFrame("Chatting");
         jFrame.setLayout(new BorderLayout());
-        jFrame.add(northPanel,"North");
+        jFrame.add(northPanel,"Center");
         jFrame.add(southPanel,"South");
         jFrame.setSize(400,400);
         int screen_width = Toolkit.getDefaultToolkit().getScreenSize().width;
