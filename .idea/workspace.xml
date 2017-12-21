@@ -6,14 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7b72c7e-2e44-42da-a281-23c08e344607" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet/TCPPanel.class" afterPath="$PROJECT_DIR$/out/production/Projet/TCPPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet/UserInterface$1.class" afterPath="$PROJECT_DIR$/out/production/Projet/UserInterface$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet/UserInterface$TCPThread.class" afterPath="$PROJECT_DIR$/out/production/Projet/UserInterface$TCPThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet/UserInterface$UDPThread.class" afterPath="$PROJECT_DIR$/out/production/Projet/UserInterface$UDPThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet/UserInterface.class" afterPath="$PROJECT_DIR$/out/production/Projet/UserInterface.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TCPPanel.java" afterPath="$PROJECT_DIR$/src/TCPPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserInterface.java" afterPath="$PROJECT_DIR$/src/UserInterface.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1434">
-              <caret line="213" column="19" lean-forward="true" selection-start-line="213" selection-start-column="19" selection-end-line="213" selection-end-column="19" />
+            <state relative-caret-position="54">
+              <caret line="438" column="17" lean-forward="true" selection-start-line="438" selection-start-column="17" selection-end-line="438" selection-end-column="17" />
               <folding>
                 <element signature="class#4166:4995" expanded="false" />
                 <element signature="class#5050:5640" expanded="false" />
@@ -58,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TCPPanel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TCPPanel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TCPPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1431">
-              <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+            <state relative-caret-position="189">
+              <caret line="52" column="41" lean-forward="false" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -319,7 +313,7 @@
       <workItem from="1513500974033" duration="18389000" />
       <workItem from="1513536778862" duration="4529000" />
       <workItem from="1513587597400" duration="350000" />
-      <workItem from="1513845493696" duration="2607000" />
+      <workItem from="1513845493696" duration="2889000" />
     </task>
     <task id="LOCAL-00001" summary="This is a P2PChat project.">
       <created>1513536898777</created>
@@ -349,11 +343,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513541386107</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="This is a P2PChat project.">
+      <created>1513852312206</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1513852312206</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62192000" />
+    <option name="totallyTimeSpent" value="62474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -774,20 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TCPPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1434">
-          <caret line="213" column="19" lean-forward="true" selection-start-line="213" selection-start-column="19" selection-end-line="213" selection-end-column="19" />
+        <state relative-caret-position="54">
+          <caret line="438" column="17" lean-forward="true" selection-start-line="438" selection-start-column="17" selection-end-line="438" selection-end-column="17" />
           <folding>
             <element signature="class#4166:4995" expanded="false" />
             <element signature="class#5050:5640" expanded="false" />
@@ -801,6 +792,16 @@
             <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />
             <element signature="class#UDPThread#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UDPThread#0;class#UserInterface#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TCPPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="52" column="41" lean-forward="false" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

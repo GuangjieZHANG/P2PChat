@@ -44,14 +44,14 @@ public class TCPPanel {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String message = jTextField.getText().trim();
-                if(message.equals("")||message.equals(" ")){
+                if(message.equals("")||message.equals(null)){
                     JOptionPane.showMessageDialog(jFrame,"Vous ne pouvez pas envoyer rien","error",
                             JOptionPane.ERROR_MESSAGE);
                 }
 
                 /***********************
                  * 你要做的就是将message用TCP发送给另一个Client to ， 你是oringin
-                 * 端口号和IP地址都在里面  可以直接用
+                 * 端口号和IP地址都在Client里面  可以直接用
                  **************************/
 
                 //接下来要开始tcp连接
