@@ -113,7 +113,7 @@ public class UserInterface {
                        }
                    }
                    //接下来要弹出一个窗口并建立TCP连接  开启TCP监听线程
-                    tcpSend(toenvoyer);
+                    TCPPanel tcpPanel = new TCPPanel(client,toenvoyer);
 
                 }
             }
@@ -261,7 +261,11 @@ public class UserInterface {
             statu = false;
 
         }
+        //在成功连接后 要开始监听TCP端口消息
 
+        if(statu==true){
+            new Thread(new TCPThread()).start();
+        }
         return statu;
     }
 
@@ -302,12 +306,6 @@ public class UserInterface {
         return true;
     }
 
-    public void tcpSend(Client sendto){
-
-        new Thread(new TCPThread()).start();
-
-
-    }
 
     //将一个Client的Array List转换成String[] 为了jlist显示
     public String[] tranforme(ArrayList<Client> e){
@@ -439,6 +437,12 @@ public class UserInterface {
     }
 
     //循环监听TCP连接请求
+    /***********************************************************
+     * 你要写的代码在这里  这是一个tcp监听线程
+     * 需要做的就是连接以后监听有没有别人发来tcp连接请求  若有 请开启一个TCPPanel
+     * 注意 TCPPanel 构造函数需要传入两个Client对象 一个是你自己 一个是和你通信的人
+     *
+     *****************************************************************/
     class TCPThread implements Runnable{
 
         @Override

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/UserInterface.java" line="333" />
     <bookmark url="file://$PROJECT_DIR$/src/UserInterface.java" line="335" />
-    <bookmark url="file://$PROJECT_DIR$/src/UserInterface.java" line="337" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7b72c7e-2e44-42da-a281-23c08e344607" name="Default" comment="This is a P2PChat project.">
+    <list default="true" id="e7b72c7e-2e44-42da-a281-23c08e344607" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet/TCPPanel.class" afterPath="$PROJECT_DIR$/out/production/Projet/TCPPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet/UserInterface$1.class" afterPath="$PROJECT_DIR$/out/production/Projet/UserInterface$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet/UserInterface$TCPThread.class" afterPath="$PROJECT_DIR$/out/production/Projet/UserInterface$TCPThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet/UserInterface$UDPThread.class" afterPath="$PROJECT_DIR$/out/production/Projet/UserInterface$UDPThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Projet/UserInterface.class" afterPath="$PROJECT_DIR$/out/production/Projet/UserInterface.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TCPPanel.java" afterPath="$PROJECT_DIR$/src/TCPPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserInterface.java" afterPath="$PROJECT_DIR$/src/UserInterface.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +28,7 @@
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="135">
               <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
@@ -33,18 +38,16 @@
       <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="445" column="0" lean-forward="true" selection-start-line="445" selection-start-column="0" selection-end-line="445" selection-end-column="0" />
+            <state relative-caret-position="-1434">
+              <caret line="213" column="19" lean-forward="true" selection-start-line="213" selection-start-column="19" selection-end-line="213" selection-end-column="19" />
               <folding>
-                <element signature="class#4134:4963" expanded="false" />
-                <element signature="class#5018:5608" expanded="false" />
-                <element signature="class#5666:5812" expanded="false" />
-                <element signature="method#actionPerformed#0;class#5666:5812" expanded="false" />
-                <element signature="class#5870:6016" expanded="false" />
+                <element signature="class#4166:4995" expanded="false" />
+                <element signature="class#5050:5640" expanded="false" />
+                <element signature="class#5698:5844" expanded="false" />
+                <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
+                <element signature="class#5902:6048" expanded="false" />
                 <element signature="method#main#0;class#UserInterface#0" expanded="false" />
-                <element signature="method#send#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
-                <element signature="method#connecter#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#leave#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />
@@ -58,8 +61,8 @@
       <file leaf-file-name="TCPPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TCPPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="1431">
+              <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,8 +119,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="330" />
-    <option name="y" value="38" />
+    <option name="x" value="-24" />
+    <option name="y" value="24" />
     <option name="width" value="1392" />
     <option name="height" value="994" />
   </component>
@@ -136,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -153,15 +157,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebStudy" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -314,7 +317,9 @@
       <workItem from="1512978060076" duration="14671000" />
       <workItem from="1513356668260" duration="2945000" />
       <workItem from="1513500974033" duration="18389000" />
-      <workItem from="1513536778862" duration="3488000" />
+      <workItem from="1513536778862" duration="4529000" />
+      <workItem from="1513587597400" duration="350000" />
+      <workItem from="1513845493696" duration="2607000" />
     </task>
     <task id="LOCAL-00001" summary="This is a P2PChat project.">
       <created>1513536898777</created>
@@ -337,11 +342,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513540216057</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="This is a P2PChat project.">
+      <created>1513541386107</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1513541386107</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58194000" />
+    <option name="totallyTimeSpent" value="62192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -349,14 +361,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27708095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29312426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -372,6 +383,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -401,6 +413,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4860">
+          <caret line="304" column="0" lean-forward="false" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
+          <folding>
+            <element signature="class#4166:4995" expanded="false" />
+            <element signature="class#5050:5640" expanded="false" />
+            <element signature="class#5698:5844" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
+            <element signature="class#5902:6048" expanded="false" />
+            <element signature="method#main#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#leave#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#UDPThread#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#run#0;class#UDPThread#0;class#UserInterface#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TCPPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8208">
+          <caret line="304" column="0" lean-forward="false" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
+          <folding>
+            <element signature="class#4166:4995" expanded="false" />
+            <element signature="class#5050:5640" expanded="false" />
+            <element signature="class#5698:5844" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
+            <element signature="class#5902:6048" expanded="false" />
+            <element signature="method#main#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#leave#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />
+            <element signature="class#UDPThread#0;class#UserInterface#0" expanded="false" />
+            <element signature="method#run#0;class#UDPThread#0;class#UserInterface#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TCPPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TCPPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -416,15 +506,13 @@
         <state relative-caret-position="3267">
           <caret line="121" column="29" lean-forward="true" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
           <folding>
-            <element signature="class#4134:4963" expanded="false" />
-            <element signature="class#5018:5608" expanded="false" />
-            <element signature="class#5666:5812" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5666:5812" expanded="false" />
-            <element signature="class#5870:6016" expanded="false" />
+            <element signature="class#4166:4995" expanded="false" />
+            <element signature="class#5050:5640" expanded="false" />
+            <element signature="class#5698:5844" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
+            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#send#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#connecter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
             <element signature="method#leave#0;class#UserInterface#0" expanded="false" />
             <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />
@@ -447,15 +535,13 @@
         <state relative-caret-position="8019">
           <caret line="297" column="42" lean-forward="true" selection-start-line="297" selection-start-column="42" selection-end-line="297" selection-end-column="42" />
           <folding>
-            <element signature="class#4134:4963" expanded="false" />
-            <element signature="class#5018:5608" expanded="false" />
-            <element signature="class#5666:5812" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5666:5812" expanded="false" />
-            <element signature="class#5870:6016" expanded="false" />
+            <element signature="class#4166:4995" expanded="false" />
+            <element signature="class#5050:5640" expanded="false" />
+            <element signature="class#5698:5844" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
+            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#send#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#connecter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
             <element signature="method#leave#0;class#UserInterface#0" expanded="false" />
             <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />
@@ -478,15 +564,13 @@
         <state relative-caret-position="3294">
           <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
-            <element signature="class#4134:4963" expanded="false" />
-            <element signature="class#5018:5608" expanded="false" />
-            <element signature="class#5666:5812" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5666:5812" expanded="false" />
-            <element signature="class#5870:6016" expanded="false" />
+            <element signature="class#4166:4995" expanded="false" />
+            <element signature="class#5050:5640" expanded="false" />
+            <element signature="class#5698:5844" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
+            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#send#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#connecter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
             <element signature="method#leave#0;class#UserInterface#0" expanded="false" />
             <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />
@@ -509,15 +593,13 @@
         <state relative-caret-position="6993">
           <caret line="259" column="14" lean-forward="false" selection-start-line="259" selection-start-column="14" selection-end-line="259" selection-end-column="14" />
           <folding>
-            <element signature="class#4134:4963" expanded="false" />
-            <element signature="class#5018:5608" expanded="false" />
-            <element signature="class#5666:5812" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5666:5812" expanded="false" />
-            <element signature="class#5870:6016" expanded="false" />
+            <element signature="class#4166:4995" expanded="false" />
+            <element signature="class#5050:5640" expanded="false" />
+            <element signature="class#5698:5844" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
+            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#send#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#connecter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
             <element signature="method#leave#0;class#UserInterface#0" expanded="false" />
             <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />
@@ -540,15 +622,13 @@
         <state relative-caret-position="6750">
           <caret line="250" column="50" lean-forward="true" selection-start-line="250" selection-start-column="50" selection-end-line="250" selection-end-column="50" />
           <folding>
-            <element signature="class#4134:4963" expanded="false" />
-            <element signature="class#5018:5608" expanded="false" />
-            <element signature="class#5666:5812" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5666:5812" expanded="false" />
-            <element signature="class#5870:6016" expanded="false" />
+            <element signature="class#4166:4995" expanded="false" />
+            <element signature="class#5050:5640" expanded="false" />
+            <element signature="class#5698:5844" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
+            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#send#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#connecter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
             <element signature="method#leave#0;class#UserInterface#0" expanded="false" />
             <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />
@@ -571,15 +651,13 @@
         <state relative-caret-position="5157">
           <caret line="191" column="20" lean-forward="true" selection-start-line="191" selection-start-column="20" selection-end-line="191" selection-end-column="20" />
           <folding>
-            <element signature="class#4134:4963" expanded="false" />
-            <element signature="class#5018:5608" expanded="false" />
-            <element signature="class#5666:5812" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5666:5812" expanded="false" />
-            <element signature="class#5870:6016" expanded="false" />
+            <element signature="class#4166:4995" expanded="false" />
+            <element signature="class#5050:5640" expanded="false" />
+            <element signature="class#5698:5844" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
+            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#send#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#connecter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
             <element signature="method#leave#0;class#UserInterface#0" expanded="false" />
             <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />
@@ -602,15 +680,13 @@
         <state relative-caret-position="3861">
           <caret line="196" column="34" lean-forward="false" selection-start-line="196" selection-start-column="34" selection-end-line="196" selection-end-column="34" />
           <folding>
-            <element signature="class#4134:4963" expanded="false" />
-            <element signature="class#5018:5608" expanded="false" />
-            <element signature="class#5666:5812" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5666:5812" expanded="false" />
-            <element signature="class#5870:6016" expanded="false" />
+            <element signature="class#4166:4995" expanded="false" />
+            <element signature="class#5050:5640" expanded="false" />
+            <element signature="class#5698:5844" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
+            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#send#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#connecter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
             <element signature="method#leave#0;class#UserInterface#0" expanded="false" />
             <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />
@@ -633,15 +709,13 @@
         <state relative-caret-position="5292">
           <caret line="196" column="34" lean-forward="true" selection-start-line="196" selection-start-column="34" selection-end-line="196" selection-end-column="34" />
           <folding>
-            <element signature="class#4134:4963" expanded="false" />
-            <element signature="class#5018:5608" expanded="false" />
-            <element signature="class#5666:5812" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5666:5812" expanded="false" />
-            <element signature="class#5870:6016" expanded="false" />
+            <element signature="class#4166:4995" expanded="false" />
+            <element signature="class#5050:5640" expanded="false" />
+            <element signature="class#5698:5844" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
+            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#send#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#connecter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
             <element signature="method#leave#0;class#UserInterface#0" expanded="false" />
             <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />
@@ -664,15 +738,13 @@
         <state relative-caret-position="54">
           <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
           <folding>
-            <element signature="class#4134:4963" expanded="false" />
-            <element signature="class#5018:5608" expanded="false" />
-            <element signature="class#5666:5812" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5666:5812" expanded="false" />
-            <element signature="class#5870:6016" expanded="false" />
+            <element signature="class#4166:4995" expanded="false" />
+            <element signature="class#5050:5640" expanded="false" />
+            <element signature="class#5698:5844" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
+            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#send#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#connecter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
             <element signature="method#leave#0;class#UserInterface#0" expanded="false" />
             <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />
@@ -696,7 +768,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="135">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
@@ -704,8 +776,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TCPPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="1431">
+          <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -714,18 +786,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="445" column="0" lean-forward="true" selection-start-line="445" selection-start-column="0" selection-end-line="445" selection-end-column="0" />
+        <state relative-caret-position="-1434">
+          <caret line="213" column="19" lean-forward="true" selection-start-line="213" selection-start-column="19" selection-end-line="213" selection-end-column="19" />
           <folding>
-            <element signature="class#4134:4963" expanded="false" />
-            <element signature="class#5018:5608" expanded="false" />
-            <element signature="class#5666:5812" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5666:5812" expanded="false" />
-            <element signature="class#5870:6016" expanded="false" />
+            <element signature="class#4166:4995" expanded="false" />
+            <element signature="class#5050:5640" expanded="false" />
+            <element signature="class#5698:5844" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
+            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#send#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
-            <element signature="method#connecter#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
             <element signature="method#leave#0;class#UserInterface#0" expanded="false" />
             <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />

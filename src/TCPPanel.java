@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class TCPPanel {
 
@@ -7,11 +9,10 @@ public class TCPPanel {
     public JTextArea jTextArea;
     public JTextField jTextField;
     public JButton send;
-    public JPanel northPanel;
     public JPanel southPanel;
     public JScrollPane scrollPane;
 
-    public TCPPanel() {
+    public TCPPanel(Client origine , Client to) {
 
         //用于展示双方聊天内容
         jTextArea = new JTextArea();
@@ -39,10 +40,30 @@ public class TCPPanel {
         jFrame.setLocation((screen_width-jFrame.getWidth())/2,(screen_height-jFrame.getHeight())/2);
         jFrame.setVisible(true);
 
+        send.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String message = jTextField.getText().trim();
+                if(message.equals("")||message.equals(" ")){
+                    JOptionPane.showMessageDialog(jFrame,"Vous ne pouvez pas envoyer rien","error",
+                            JOptionPane.ERROR_MESSAGE);
+                }
+
+                /***********************
+                 * 你要做的就是将message用TCP发送给另一个Client to ， 你是oringin
+                 * 端口号和IP地址都在里面  可以直接用
+                 **************************/
+
+                //接下来要开始tcp连接
+
+            }
+        });
+
+
     }
 
-    public static void main(String[] args){
+  /*  public static void main(String[] args){
         new TCPPanel();
-    }
+    }*/
 
 }
