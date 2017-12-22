@@ -5,10 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/UserInterface.java" line="335" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7b72c7e-2e44-42da-a281-23c08e344607" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TCPPanel.java" afterPath="$PROJECT_DIR$/src/TCPPanel.java" />
-    </list>
+    <list default="true" id="e7b72c7e-2e44-42da-a281-23c08e344607" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,24 +19,19 @@
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="75">
               <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="438" column="17" lean-forward="true" selection-start-line="438" selection-start-column="17" selection-end-line="438" selection-end-column="17" />
+            <state relative-caret-position="43">
+              <caret line="438" column="17" lean-forward="false" selection-start-line="438" selection-start-column="17" selection-end-line="438" selection-end-column="17" />
               <folding>
-                <element signature="class#4166:4995" expanded="false" />
-                <element signature="class#5050:5640" expanded="false" />
-                <element signature="class#5698:5844" expanded="false" />
-                <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
-                <element signature="class#5902:6048" expanded="false" />
                 <element signature="method#main#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
                 <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
@@ -52,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TCPPanel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TCPPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TCPPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="52" column="41" lean-forward="false" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+            <state relative-caret-position="465">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,7 +80,10 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -113,10 +108,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-24" />
-    <option name="y" value="24" />
-    <option name="width" value="1392" />
-    <option name="height" value="994" />
+    <option name="x" value="-23" />
+    <option name="y" value="23" />
+    <option name="width" value="1397" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -133,6 +128,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -151,14 +148,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebStudy" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -314,6 +310,7 @@
       <workItem from="1513536778862" duration="4529000" />
       <workItem from="1513587597400" duration="350000" />
       <workItem from="1513845493696" duration="2889000" />
+      <workItem from="1513959746002" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="This is a P2PChat project.">
       <created>1513536898777</created>
@@ -354,10 +351,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62474000" />
+    <option name="totallyTimeSpent" value="62662000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -365,21 +362,21 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29312426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14166667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -408,6 +405,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Client.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TCPPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="52" column="41" lean-forward="false" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
@@ -419,11 +434,6 @@
         <state relative-caret-position="4860">
           <caret line="304" column="0" lean-forward="false" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
           <folding>
-            <element signature="class#4166:4995" expanded="false" />
-            <element signature="class#5050:5640" expanded="false" />
-            <element signature="class#5698:5844" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
-            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
@@ -458,11 +468,6 @@
         <state relative-caret-position="8208">
           <caret line="304" column="0" lean-forward="false" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
           <folding>
-            <element signature="class#4166:4995" expanded="false" />
-            <element signature="class#5050:5640" expanded="false" />
-            <element signature="class#5698:5844" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
-            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
@@ -507,11 +512,6 @@
         <state relative-caret-position="3267">
           <caret line="121" column="29" lean-forward="true" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
           <folding>
-            <element signature="class#4166:4995" expanded="false" />
-            <element signature="class#5050:5640" expanded="false" />
-            <element signature="class#5698:5844" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
-            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
@@ -536,11 +536,6 @@
         <state relative-caret-position="8019">
           <caret line="297" column="42" lean-forward="true" selection-start-line="297" selection-start-column="42" selection-end-line="297" selection-end-column="42" />
           <folding>
-            <element signature="class#4166:4995" expanded="false" />
-            <element signature="class#5050:5640" expanded="false" />
-            <element signature="class#5698:5844" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
-            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
@@ -565,11 +560,6 @@
         <state relative-caret-position="3294">
           <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
-            <element signature="class#4166:4995" expanded="false" />
-            <element signature="class#5050:5640" expanded="false" />
-            <element signature="class#5698:5844" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
-            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
@@ -594,11 +584,6 @@
         <state relative-caret-position="6993">
           <caret line="259" column="14" lean-forward="false" selection-start-line="259" selection-start-column="14" selection-end-line="259" selection-end-column="14" />
           <folding>
-            <element signature="class#4166:4995" expanded="false" />
-            <element signature="class#5050:5640" expanded="false" />
-            <element signature="class#5698:5844" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
-            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
@@ -623,11 +608,6 @@
         <state relative-caret-position="6750">
           <caret line="250" column="50" lean-forward="true" selection-start-line="250" selection-start-column="50" selection-end-line="250" selection-end-column="50" />
           <folding>
-            <element signature="class#4166:4995" expanded="false" />
-            <element signature="class#5050:5640" expanded="false" />
-            <element signature="class#5698:5844" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
-            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
@@ -652,11 +632,6 @@
         <state relative-caret-position="5157">
           <caret line="191" column="20" lean-forward="true" selection-start-line="191" selection-start-column="20" selection-end-line="191" selection-end-column="20" />
           <folding>
-            <element signature="class#4166:4995" expanded="false" />
-            <element signature="class#5050:5640" expanded="false" />
-            <element signature="class#5698:5844" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
-            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
@@ -681,11 +656,6 @@
         <state relative-caret-position="3861">
           <caret line="196" column="34" lean-forward="false" selection-start-line="196" selection-start-column="34" selection-end-line="196" selection-end-column="34" />
           <folding>
-            <element signature="class#4166:4995" expanded="false" />
-            <element signature="class#5050:5640" expanded="false" />
-            <element signature="class#5698:5844" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
-            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
@@ -710,11 +680,6 @@
         <state relative-caret-position="5292">
           <caret line="196" column="34" lean-forward="true" selection-start-line="196" selection-start-column="34" selection-end-line="196" selection-end-column="34" />
           <folding>
-            <element signature="class#4166:4995" expanded="false" />
-            <element signature="class#5050:5640" expanded="false" />
-            <element signature="class#5698:5844" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
-            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
@@ -739,11 +704,6 @@
         <state relative-caret-position="54">
           <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
           <folding>
-            <element signature="class#4166:4995" expanded="false" />
-            <element signature="class#5050:5640" expanded="false" />
-            <element signature="class#5698:5844" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
-            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
@@ -760,31 +720,30 @@
     <entry file="file://$PROJECT_DIR$/src/ThreadWriter.java" />
     <entry file="file://$PROJECT_DIR$/src/Server.java" />
     <entry file="file://$PROJECT_DIR$/src/MessageThread.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/AbstractButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="1966" column="0" lean-forward="false" selection-start-line="1966" selection-start-column="0" selection-end-line="1966" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/javax/swing/AbstractButton.java" />
     <entry file="file://$PROJECT_DIR$/src/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="75">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TCPPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="438" column="17" lean-forward="true" selection-start-line="438" selection-start-column="17" selection-end-line="438" selection-end-column="17" />
+        <state relative-caret-position="43">
+          <caret line="438" column="17" lean-forward="false" selection-start-line="438" selection-start-column="17" selection-end-line="438" selection-end-column="17" />
           <folding>
-            <element signature="class#4166:4995" expanded="false" />
-            <element signature="class#5050:5640" expanded="false" />
-            <element signature="class#5698:5844" expanded="false" />
-            <element signature="method#actionPerformed#0;class#5698:5844" expanded="false" />
-            <element signature="class#5902:6048" expanded="false" />
             <element signature="method#main#0;class#UserInterface#0" expanded="false" />
             <element signature="method#initSocket#0;class#UserInterface#0" expanded="false" />
             <element signature="method#sendMessage#0;class#UserInterface#0" expanded="false" />
@@ -792,16 +751,6 @@
             <element signature="method#tranforme#0;class#UserInterface#0" expanded="false" />
             <element signature="class#UDPThread#0;class#UserInterface#0" expanded="false" />
             <element signature="method#run#0;class#UDPThread#0;class#UserInterface#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TCPPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="52" column="41" lean-forward="false" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

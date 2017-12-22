@@ -3,6 +3,8 @@ import javax.swing.border.TitledBorder;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.net.*;
 import java.util.ArrayList;
@@ -445,16 +447,65 @@ public class UserInterface {
      *****************************************************************/
     class TCPThread implements Runnable{
 
-        @Override
+    	private Socket clientSock = null;  
+        public void ServerThread(Socket clientSock){  
+            this.clientSock = clientSock;  
+        }  
+
+        @Override   
         public void run() {
-
-            while (true){
-
-
-
-
+        	try{  
+                //获取Socket的输出流，用来向客户端发送数据  
+                PrintStream out = new PrintStream(clientSock.getOutputStream());  
+                //获取Socket的输入流，用来接收从客户端发送过来的数据  
+                BufferedReader buf = new BufferedReader(new InputStreamReader(clientSock.getInputStream()));  
+                boolean flag =true; 
+                if (flag ==true){
+                	//client 和 发送方？
+                	TCPPanel p =new TCPPanel(client, ？);
+                }
+                /** 下面的部分是不是应该放到TcpPanel里？
+                 * 不知道对方端口的情况下是不是要监听所有被选端口？**/
+                while(flag){  
+                    //接收从客户端发送过来的数据  
+                    String str =  buf.readLine();  
+                    if(str == null || "".equals(str)){  
+                        flag = false;  
+                    }else{  
+                    	//终断连接
+                        if("bye".equals(str)){  
+                            flag = false;  
+                        }else{  
+                            //将接收到的字符串前面加上echo，发送到对应的客户端  
+                            out.println("echo:" + str);  
+                        }  
+                    }  
+                }  
+                out.close();  
+                clientSock.close();  
+            }catch(Exception e){  
+                e.printStackTrace();  
             }
-        }
-    }
+        	}  
+        	 
+            
+            class Server1{  
+                    //服务端在端口监听客户端请求的TCP连接  
+                    ServerSocket server = new ServerSocket(client.getPort());  
+                    Socket clientSock = null;  
+                     
+                    while(true){  
+                        //等待客户端的连接，如果没有获取连接  
+                        clientSock = server.accept();  
+                        System.out.println("Connexion ok");  
+                        //为每个客户端连接开启一个线程  
+                        new Thread(new TCPThread()).start();  
+                    }  
+                    server.close();  
+            }
+           
+    	} 
+	}
 }
+
 
