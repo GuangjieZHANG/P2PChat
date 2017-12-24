@@ -2,10 +2,11 @@ import javax.swing.*;
 import javax.swing.border.TitledBorder;
 import java.awt.*;
 import java.awt.event.*;
-import java.io.BufferedReader;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.*;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -448,13 +449,85 @@ public class UserInterface {
         @Override
         public void run() {
 
-            while (true){
+             try{
+
+                 while(true){
+                     ServerSocket listen = new ServerSocket(client.getPort());
+
+                     Socket socket = listen.accept();
+
+                     System.out.println("*******socket初始化成功******");
+
+
+                     DataInputStream in= new  DataInputStream(socket.getInputStream());
 
 
 
+                     String temp=null;
+                     String info="";
+                     TCPPanel rece=null;
+                     int j=0;
+                     while((temp=in.readUTF())!=null){
 
-            }
-        }
+                         String[] s = temp.split("/");
+                         info=s[2];
+
+                         int a =Integer.parseInt(s[1]);
+
+                         System.out.println(a);
+
+                         Client or = new Client();
+                         //首先要通过用户端口号查表  找到其对应的用户  然后弹出监听
+                         for(int i = 0;i < actifs.size();i++){
+                             if(actifs.get(i).getPseudonyme().equals(s[0])){
+                                 or = actifs.get(i);
+                             }
+                         }
+                         if (j==0){
+
+                             rece = new TCPPanel(or,client);
+                             j++;
+                             Date now = new Date();
+                             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");//可以方便地修改日期格式
+
+                             String hehe = dateFormat.format( now );
+                             rece.jTextArea.append(hehe+"  "+or.getPseudonyme()+" to "+client.getPseudonyme()+"\n"+info+"\n"+"\n");
+                             System.out.println(info);
+                         }else {
+                             Date now = new Date();
+                             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");//可以方便地修改日期格式
+
+                             String hehe = dateFormat.format( now );
+                             rece.jTextArea.append(hehe+"  "+or.getPseudonyme()+" to "+client.getPseudonyme()+"\n"+info+"\n"+"\n");
+                             System.out.println(info);
+
+
+                         }
+
+
+
+                     }
+
+                     OutputStream outputStream=socket.getOutputStream();//获取一个输出流，向服务端发送信息
+                     PrintWriter printWriter=new PrintWriter(outputStream);//将输出流包装成打印流
+                     printWriter.print("*********");
+                     printWriter.flush();
+                     socket.shutdownOutput();//关闭输出流
+
+                     //关闭相对应的资源
+                     printWriter.close();
+                     outputStream.close();
+
+                     socket.close();
+
+                     // System.out.println();
+                 }
+
+             }catch(Exception e){
+                 System.out.println("*******启动监听失败*******");
+             }
+         }
+
     }
 }
 
